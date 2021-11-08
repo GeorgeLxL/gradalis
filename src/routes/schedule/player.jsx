@@ -23,13 +23,41 @@ const PlayerPage = (props) => {
 
     const location = useLocation();
     const channel = location.state?.channel;
+    
     const title = location.state?.title;
 
     const setSnackBar = useGlobalAction('setSnackBar');
 
     const [streamID, setStreamID] = useState('');
+    const [url, setURL] = useState('');
 
     useEffect(() => {
+        let url = "";
+        switch(channel) {
+            case "channel1":
+                url = "https://twitcasting.tv/c:gradalis1/embeddedplayer/live?auto_play=true&default_mute=true";
+                setURL(url);
+                break;
+            case "channel2":
+                url = "https://twitcasting.tv/c:gradalis2/embeddedplayer/live?auto_play=true&default_mute=true";
+                setURL(url);
+                break;
+            case "channel3":
+                url = "https://twitcasting.tv/c:gradalis3/embeddedplayer/live?auto_play=true&default_mute=true";
+                setURL(url);
+                break;
+            case "channel4":
+                url = "https://twitcasting.tv/c:gradalis4/embeddedplayer/live?auto_play=true&default_mute=true";
+                setURL(url);
+                break;
+            case "channel5":
+                url = "https://twitcasting.tv/c:gradalis5/embeddedplayer/live?auto_play=true&default_mute=true";
+                setURL(url);
+                break;
+            default:
+                url = "https://twitcasting.tv/c:gradalis6/embeddedplayer/live?auto_play=true&default_mute=true";
+                setURL(url);
+        };
         const client = AgoraRTC.createClient({ mode: 'rtc', codec: 'vp8' });
         client.init(appConfig.Agora_App_ID, () => {
             console.log("client initialized");
@@ -82,7 +110,7 @@ const PlayerPage = (props) => {
                 <Typography variant="body1" align="left" style={{ marginTop: 20 }}>{title}</Typography>
                 <Box className="mt-10" style={{ marginBottom: 50 }}>
                     <div id={streamID} className="shared-screen">
-                        <iframe src="https://twitcasting.tv/g:106520134842857523556/embeddedplayer/live?auto_play=true&default_mute=true" width="100%" height="100%" frameBorder="0" allowFullScreen></iframe>
+                        <iframe src={url} width="100%" height="100%" frameBorder="0" allowFullScreen></iframe>
                     </div>
                 </Box>
             </Container>
