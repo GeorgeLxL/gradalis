@@ -1,0 +1,8 @@
+@import "headers/headerwidgets";
+@import "headers/headerOne";
+@import 'headers/fixedHeader.scss';
+@import "sidebar";
+@import 'questions/questionLayout.scss';
+.frontend{
+    @import "footers/footerOne";
+}

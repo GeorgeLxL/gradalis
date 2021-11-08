@@ -1,0 +1,25 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "node": "current"
+        }
+      }
+    ],
+    "@babel/preset-react"
+  ],
+  "plugins": [
+    [
+      "@babel/plugin-proposal-decorators",
+      {
+        "legacy": true
+      },
+      "@babel/plugin-syntax-dynamic-import",
+      "emotion"
+    ],
+    "transform-class-properties",
+    "@babel/plugin-transform-runtime"
+  ]
+}

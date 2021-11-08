@@ -1,0 +1,73 @@
+/*------------------------------------------------------------
+    5.2.1 widgets and inner pages
+-----------------------------------------------------------*/
+@media (min-width: 1199px) {
+}
+
+@media (min-width: 959px) {
+}
+
+.MuiInputBase-input {
+    height: 1.5rem;
+}
+
+.MuiSnackbar-anchorOriginTopCenter {
+    top: 80px;
+}
+
+@media (min-width: 600px) {
+    .MuiSnackbar-anchorOriginTopCenter {
+        top: 115px;
+    }
+}
+
+@media (min-width: 576px) {
+}
+
+@media (min-width: 767px) {
+}
+
+@media (min-width: 960px) {
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 1520px) {
+}
+
+@media (max-width: 959px) {
+}
+
+//align item
+.right-content {
+    float: right;
+}
+
+.right-content ~ p {
+    clear: both;
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.54);
+}
+
+//signin page background image style
+@media (max-width: 1404px) {
+}
+@media (min-width: 1404px) {
+}
+
+//------ checkout page -------
+hr {
+    border-width: 1px;
+}
+
+//------ profile page --------
+.Form__formSection___1PPvW {
+    min-width: 100%;
+}
+.Form__formContainer___1GA3x {
+    margin: 5% auto -20px;
+}

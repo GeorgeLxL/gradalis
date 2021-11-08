@@ -1,0 +1,69 @@
+.tableLayout {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.tableLayoutmobile {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.tableLayoutmobile .tr .td1 {
+  padding-bottom: 20px;
+}
+
+.tableLayoutmobile .tr .td2 .smobile {
+  padding-left: 60px;
+}
+
+.tableLayoutflex .tr {
+  display: flex;
+}
+
+.tableLayoutflex .tr .td1 {
+  width: 13%;
+  margin-right: 2%;
+}
+
+.tableLayout .tr {
+  width: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.tableLayout .tr .tdmobile {
+  width: 100%;
+  margin-right: 2%;
+}
+
+.tableLayout .tr .td2 {
+  width: 85%;
+}
+
+.tableLayout .tr .td2 .span1 {
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 400;
+}
+.tableLayout .tr .b {
+  font-weight: bold;
+  font-size: 20px;
+}
+.br-hr {
+  margin-bottom: 20px;
+}
+.sub-table {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.sub-table .s1 {
+  width: 16%;
+}
+.sub-table .s2 {
+  display: inline-block;
+}
+
+.row-support {
+  padding-left: 0px;
+  padding-right: 0px;
+}

@@ -1,0 +1,76 @@
+/*-----------------------------------------------------------
+    3.6 slider
+-----------------------------------------------------------*/
+
+.ReactModal__Overlay{
+    z-index: 10000 !important;
+}
+
+//------- slick slider dots --------
+.slick-slider{
+    .slick-arrow{
+        border-radius: 100%;
+        border: 2px solid #eef2f3;
+        transition:all 0.4s ease-in-out 0s;
+        width: 3rem;
+        background-color: #eef2f3;
+        cursor: pointer;
+        opacity: 0;
+        visibility:hidden;
+        height: 3rem;
+        box-shadow: 1px 2px 10px -1px rgba(0,0,0,.3);
+        z-index: 9;
+        &:before{
+            color:rgba(0, 0, 0, 0.87);
+            opacity: 1;
+            font-size:1.5rem;
+            font-family:'Material-Design-Iconic-Font';
+        }
+    }
+    .slick-prev{
+        left:-50px;
+        &:before{
+            content:'\f2fa';
+        }
+    }
+    .slick-next{
+        right:-50px;
+        &:before{
+            content:"\f2fb";
+        }   
+    }
+    &:hover{
+        .slick-arrow{
+            visibility: visible;
+            opacity:1;
+        } 
+        .slick-prev{
+            left:0;
+        }
+        .slick-next{
+            right:0;
+        }  
+    }
+    .slick-dots{
+        bottom:-50px;
+        li{
+           margin: 0;
+            width: 1rem;
+            height:1rem;
+            button{
+                width: 1rem;
+                height:1rem;
+                padding:3px;
+                &:before{
+                    font-size: 10px;
+                    transition-timing-function:cubic-bezier(0.17, 0.67, 0.83, 0.8);
+                    transition:0.4s;
+                    width: 1rem;
+                    height: 1rem;
+                    line-height: 1rem;
+                }
+            }
+        }
+    }
+}
+//------ product slider dots -------

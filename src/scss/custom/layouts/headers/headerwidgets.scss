@@ -1,0 +1,16 @@
+//---- base font and color for dropdown ----
+.base-text{
+  span{
+    font-size:0.875rem;
+    color:$base;
+    text-transform: capitalize;
+  }
+  i{
+    color:$base;
+    margin-left:0.3125rem;
+    font-size:1.5rem;
+  }
+  &:hover{
+    background-color: transparent !important;
+  }
+}

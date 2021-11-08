@@ -1,0 +1,54 @@
+/*------------------------------------------------------------
+    3.3 common
+-----------------------------------------------------------*/
+.frontend{
+    background-color: white;
+}
+
+.h-100{
+    height:100%;
+}
+.w-100{
+    width:100%;
+}
+
+.selector-link{
+    font-size:14px !important;
+    text-transform: capitalize !important;
+}
+
+.border-circle{
+   border-radius:100%;
+}
+.rounded{
+    border-radius:0.3125rem;
+    img{
+      border-radius:0.3125rem;
+    }
+}
+
+//-------blog content overlay color --------
+.primary-rgba {
+    background: rgba(40,53,147,.75);
+}
+.black-rgba {
+    background: rgba(0,0,0,.69);
+}
+.pink-rgba {
+    background: rgba(183,58,174,.75);
+}
+
+//progress bar
+.iron-progress-bar{
+   height:100vh;
+   background-color:$base;
+   position: fixed;
+   top:0;
+   left:0;
+   right:0;
+   bottom:0;
+   z-index: 99998;
+   svg{
+      z-index: 99999;
+   }
+}

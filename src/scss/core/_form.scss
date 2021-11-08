@@ -1,0 +1,54 @@
+/*------------------------------------------------------------
+    3.5 form
+-----------------------------------------------------------*/
+
+//-------basic form fields style--------
+input, button, select, optgroup, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    &:focus{
+        outline: none;
+    }
+}
+input{
+    &::placeholder{
+        text-transform: capitalize;
+    }
+    &::-ms-clear {
+        width : 0;
+        height: 0;
+    }
+}
+
+input{
+    &::placeholder{
+        color: rgba($dark,0.5) !important;
+    }
+}
+
+@keyframes ripple {
+    0% {
+      transform: scale(0, 0);
+      opacity: 1;
+    }
+    20% {
+      transform: scale(0.5, 0.5);
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      transform: scale(1, 1);
+    }
+}
+
+@media (min-width: 1550px){
+}
+
+@media (min-width: 960px){
+    .form-margin {
+        margin-left: -40px;
+    }    
+}
+
