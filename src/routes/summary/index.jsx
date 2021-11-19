@@ -51,7 +51,7 @@ const SummaryPage = (props) => {
                                             <Typography variant="body1">代表</Typography>
                                         </th>
                                         <td className="p-10 pl-30" style={{ border: '1px solid white' }}>
-                                            <Typography variant="body1">伊藤達也</Typography>
+                                            <Typography variant="body1">木田亜努</Typography>
                                         </td>
                                     </tr>
                                     <tr>
@@ -59,7 +59,7 @@ const SummaryPage = (props) => {
                                             <Typography variant="body1">本社所在地</Typography>
                                         </th>
                                         <td className="p-10 pl-30" style={{ border: '1px solid white' }}>
-                                            <Typography variant="body1">東京都港区南青山２丁目２番１５号</Typography>
+                                            <Typography variant="body1">東京都中央区築地3-9-10 築地ビル9Fアルファパートナーズ事務所内</Typography>
                                         </td>
                                     </tr>
                                     <tr>
@@ -75,7 +75,7 @@ const SummaryPage = (props) => {
                                             <Typography variant="body1">顧問弁護士</Typography>
                                         </th>
                                         <td className="p-10 pl-30" style={{ border: '1px solid white' }}>
-                                            <Typography variant="body1">フレイ法律事務所　　内山裕史</Typography>
+                                            <Typography variant="body1">アルファパートナーズ国際法律事務所　　戸谷雅美</Typography>
                                         </td>
                                     </tr>
                                 </tbody>

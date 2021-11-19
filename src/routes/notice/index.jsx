@@ -57,8 +57,14 @@ const TermsOfUsePage = (props) => {
           <Typography variant="body1" align="left" style={{ marginTop: 10 }}>■ 移動平均線のゴールデンクロスが解けて、下落した場合、すぐには逆のサインであるデットクロスは出ません。</Typography>
           <Typography variant="body1" align="left" style={{ marginTop: 10 }}>■ 大分時間が経ってからデットクロスし、その時には既に価格はかなり下落してしまって、損失が大きくなっているか、下落でとれるはずの利益を逃すことになります。</Typography>
           <Typography variant="body1" align="left" style={{ marginTop: 10 }}>■ GRADALISなら、急落すれば比較的早期に逆の向きに、売サインがでますので、買いポジションはロスカットし、売りポジションをエントリーし直す事が瞬時にできます。</Typography>
-
-          <Typography variant="body1" align="left" style={{ marginTop: 50 }}>以上、GRADALISの2点のご注意です。</Typography>
+          <Typography variant="body1" align="left" style={{ marginTop: 10 }}>■ また、KOKUサインが極たまにリペイントする、もう一つのパターンがあります。</Typography>
+          <Typography variant="body1" align="left" style={{ marginTop: 10 }}>■ これは、移動平均線が良いポジションをとり直すのと同じく、矢印が少し良い場所に移動することがあります。</Typography>
+          <Typography variant="body1" align="left" style={{ marginTop: 10 }}>■ 過去のサインが移動するためトレード自体に大きな影響はないと思いますが、予めご容赦下さい。</Typography>
+          
+          <Typography variant="body1" align="left" style={{ marginTop: 50 }}>【3】</Typography>
+          <Typography variant="body1" align="left" style={{ marginTop: 10 }}>■ サイン配信ライブの映像がサーバートラブル、天災、停電、諸機器の故障、その他で予告なくライブ配信の映像が乱れたり、停止したり、中止になったりすることがある可能性があります。</Typography>
+          <Typography variant="body1" align="left" style={{ marginTop: 10 }}>■ その場合、早期の復旧を目指しますが、いつまでに復旧するかという明確な答えが出せない場合もあります。</Typography>
+          <Typography variant="body1" align="left" style={{ marginTop: 10 }}>■ これら諸障害、トラブルが原因による会員の皆様のトレード結果、損失に関しましては、弊社は一切責任を追いかねますので、トレードの全ては自己責任で行って頂けますよう、よろしくお願い致します。</Typography>
         </Container>
       </Box>
     </Fragment >
