@@ -56,10 +56,10 @@ const SummaryPage = (props) => {
                                     </tr>
                                     <tr>
                                         <th className="p-10" style={{ border: '1px solid white', textAlign: 'center' }}>
-                                            <Typography variant="body1">本社所在地</Typography>
+                                            <Typography variant="body1">本店所在地</Typography>
                                         </th>
                                         <td className="p-10 pl-30" style={{ border: '1px solid white' }}>
-                                            <Typography variant="body1">東京都中央区築地3-9-10 築地ビル9Fアルファパートナーズ事務所内</Typography>
+                                            <Typography variant="body1">東京都中央区築地3-9-10築地ビル9Fアルファパートナーズ国際法律事務所内</Typography>
                                         </td>
                                     </tr>
                                     <tr>
